@@ -1,0 +1,145 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(bg2.jpg);
+    font-family: sans-serif;
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+}
+.container{
+    padding: 10px;
+    width: 500px;
+    height:auto ;
+    margin:0 auto;
+}
+.header{
+    background-image: url("24b419dbfc9572c27aeb25f4212b2751.jpg");
+    background-size: cover;
+    color: rgb(244, 244, 244);
+    height: 200px;
+    width: 400px;
+    font-size: 35px;
+    border-radius: 15px 15px 0 0;
+    font-family: sans-serif;
+    position: relative;
+}
+.clear{
+    width : 30px;
+    height: 30px;
+    position: absolute;
+    right:20px;
+    top: 10px;
+}
+.clear i{
+    font-size: 30px;
+    color: #FFF;
+}
+.clear i:hover{
+    cursor: pointer;
+    text-shadow: 1px 3px 5px #000;
+    transform: rotate(45deg);
+}
+#date{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #FFF;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+a{
+    font-size: 25px;
+    color: rgb(252, 246, 253);
+}
+.content{
+    width:400px;
+    height: 350px;
+    max-height:350px;
+    background-color: rgb(255, 231, 247);
+    overflow: auto;
+}
+.content::-webkit-scrollbar { 
+    display: none; 
+}
+.content ul{
+    padding:0;
+    margin:0;
+}
+.item{
+    width:380px;
+    height: 35px;
+    min-height: 35px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 8px;
+    background-color:rgb(247, 180, 240);
+}
+.item i.circ{
+    position: absolute;
+    font-size: 20px;
+    padding-left:5px;
+    left:15px;
+    top:10px;
+}
+.item i.circ:hover{
+    cursor: pointer;
+}
+.item p.text{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 25px;
+    left:45px;
+    top:5px;
+    background-color:rgb(247, 180, 240);
+    max-width:280px;
+}
+.lineThrough{
+    text-decoration: line-through;
+    color : #ccc;
+}
+.item i.del{
+    position: absolute;
+    font-size: 25px;
+    right:15px;
+    top:10px;
+}
+.item i.del:hover{
+    color:#f1eaea;
+    cursor: pointer;
+}
+.item i.edit:hover{
+    color:#f1eaea;
+    cursor: pointer;
+}
+.additem{
+    position: relative;
+    width: 380px;
+    height:40px;
+    background-color: #FFF;
+    padding: 10px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-radius:  0 0 15px 15px;
+}
+.additem i{
+    position: absolute;
+    font-size:40px;
+    color: #4162f6;
+}
+.fa-circle-check{
+    color: rgb(165, 196, 108);
+}
+.additem input{
+    position: absolute;
+    left: 50px;
+    height: 35px;
+    width: 310px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding-left:10px;
+}
+
